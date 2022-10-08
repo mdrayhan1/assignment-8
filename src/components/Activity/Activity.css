@@ -1,0 +1,28 @@
+.action-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.actions-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    
+}
+
+
+
+@media screen and (max-width:576px) {
+    .action-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+@media screen and (min-width:577px) and  (max-width:992px) {
+    .action-container{
+       grid-template-columns: repeat(3, 2fr);
+    }
+    
+}
+

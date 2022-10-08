@@ -1,0 +1,35 @@
+.result{
+
+    font-family:'Lato';
+    font-style: normal;
+    font-weight: 395;
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 7px;
+
+    background-color: antiquewhite;
+    position: sticky;
+    top: 0;
+    padding: 30px 20px;
+}
+
+.btn{
+
+    font-family:'Lato';
+    font-style: normal;
+    font-weight: 395;
+    font-size: 21px;
+    line-height: 25px;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.self-info{
+    background-color: aqua;
+}
+
+.activity-btn{
+    font-size: 18px;
+align-items: center;
+}

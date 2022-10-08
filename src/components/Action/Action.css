@@ -1,0 +1,47 @@
+.action{
+    width: 295px;
+    height: 320px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    position: relative;
+    
+}
+
+
+.action img{
+    border-radius: 8px;
+margin: 7px;
+ 
+}
+
+.action-info{
+    font-family:'Lato';
+    margin: 0 14px;
+}
+
+.action-info p{
+    margin-bottom: 0;
+    margin-top: 5px;
+   
+}
+.action-name{
+    font-family:'Lato';
+    font-style: normal;
+    font-weight: 395;
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 7px;
+}
+
+.btn-list{
+    width: 100%;
+    background: #ee82ee;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+}
+
+.btn-list:hover{
+  background-color: #6a5acd;
+}
