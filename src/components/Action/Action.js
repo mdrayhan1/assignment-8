@@ -3,6 +3,7 @@ import React from 'react';
 
 import './Action.css'
 
+// destructuring
 const Action = ({action, handleAddToList}) => {
     const {img, name, time} = action;
     
