@@ -1,3 +1,4 @@
+/* action container */
 .action-container{
     display: grid;
     grid-template-columns: 4fr 1fr;
@@ -12,7 +13,7 @@
 
 
 
-@media screen and (max-width:576px) {
+@media only screen and (max-width: 600px) {
     .action-container{
         grid-template-columns: repeat(2, 1fr);
     }
