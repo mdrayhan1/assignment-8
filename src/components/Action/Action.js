@@ -1,8 +1,9 @@
+// import
 import React from 'react';
+
 import './Action.css'
 
 const Action = ({action, handleAddToList}) => {
-    // const {action, handleAddToList} = props;
     const {img, name, time} = action;
     
     
