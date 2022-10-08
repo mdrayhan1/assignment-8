@@ -6,6 +6,8 @@ import Action from '../Action/Action';
 import Result from '../Result/Result';
 import './Activity.css'
 
+// state declare
+
 const Activity = () => {
     
     const [actions, setActions] = useState([]);
