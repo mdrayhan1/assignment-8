@@ -1,7 +1,8 @@
-/* action container */
+
 .action-container{
-    display: grid;
-    grid-template-columns: 4fr 1fr;
+    
+    display:flex;
+  flex-direction:row;
 }
 
 .actions-container{
@@ -13,17 +14,21 @@
 
 /* responsive with media query */
 
-@media only screen and (max-width: 600px) {
-    .action-container{
-        grid-template-columns: repeat(2, 1fr);
+@media only screen and (max-width: 425px){
+	
+
+    .actions-container{
+        grid-template-columns: repeat(1, 1fr);       
     }
-    
+        
 }
 
-@media screen and (min-width:577px) and  (max-width:992px) {
-    .action-container{
+
+/* @media screen and (min-width:577px) and  (max-width:992px) {
+    .actions-container{
        grid-template-columns: repeat(3, 2fr);
     }
     
-}
+} */
+
 

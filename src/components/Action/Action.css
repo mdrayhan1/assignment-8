@@ -1,5 +1,5 @@
 .action{
-    width: 295px;
+    width: 325px;
     height: 320px;
     border: 1px solid #95A0A7;
     border-radius: 8px;
@@ -9,8 +9,9 @@
 
 
 .action img{
-    border-radius: 8px;
-margin: 7px;
+width: 100%;
+     border-radius: 8px;
+/* margin: 7px; */
  
 }
 
@@ -28,8 +29,7 @@ margin: 7px;
     font-family:'Lato';
     font-style: normal;
     font-weight: 395;
-    font-size: 21px;
-    line-height: 25px;
+    font-size: 2vw;
     margin-top: 7px;
 }
 
