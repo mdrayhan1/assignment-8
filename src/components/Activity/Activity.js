@@ -21,6 +21,7 @@ const Activity = () => {
         .then(data=> setActions(data))
     }, [])
 
+    // event handler
     const handleAddToList = (action) =>{
         const newResult = [...result, action]
         setResult(newResult)
