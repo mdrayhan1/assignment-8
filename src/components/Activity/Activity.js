@@ -13,7 +13,7 @@ const Activity = () => {
     const [actions, setActions] = useState([]);
     const [result, setResult] = useState([]);
 
-    // fetch
+    // fetch part
 
     useEffect(() =>{
         fetch('./actions.json')
